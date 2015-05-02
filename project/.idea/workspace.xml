@@ -19,9 +19,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a1d61c8e-cbf4-4c9f-a1a3-88ab97eff806" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/raw/data.zip" afterPath="$PROJECT_DIR$/res/raw/data.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/SDL/src/core/android/SDL_android.cpp" afterPath="$PROJECT_DIR$/jni/SDL/src/core/android/SDL_android.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/src/download-instead.sh" afterPath="$PROJECT_DIR$/jni/src/download-instead.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../build.sh" afterPath="$PROJECT_DIR$/../build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -49,17 +49,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#6868#6869#0" expanded="false" />
-                <element signature="e#6904#6905#0" expanded="false" />
-                <element signature="e#7820#7821#0" expanded="false" />
-                <element signature="e#7866#7867#0" expanded="false" />
-                <element signature="e#10750#10751#0" expanded="false" />
-                <element signature="e#10804#10805#0" expanded="false" />
-                <element signature="e#12857#12858#0" expanded="false" />
-                <element signature="e#12909#12910#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,15 +59,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1787#1788#0" expanded="false" />
-                <element signature="e#1814#1815#0" expanded="false" />
-                <element signature="e#1973#1974#0" expanded="false" />
-                <element signature="e#2005#2006#0" expanded="false" />
-                <element signature="e#2805#2806#0" expanded="false" />
-                <element signature="e#2839#2840#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +87,7 @@
       <file leaf-file-name="gdmenu1.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/menu/gdmenu1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -115,12 +97,9 @@
       <file leaf-file-name="SDLActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/SDLActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45833334">
+            <state vertical-scroll-proportion="-0.2264151">
               <caret line="362" column="66" selection-start-line="362" selection-start-column="66" selection-end-line="362" selection-end-column="66" />
-              <folding>
-                <element signature="e#10523#10623#0" expanded="true" />
-                <element signature="e#10622#10623#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,15 +129,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2357#2358#0" expanded="false" />
-                <element signature="e#2438#2439#0" expanded="false" />
-                <element signature="e#2484#2485#0" expanded="false" />
-                <element signature="e#2523#2524#0" expanded="false" />
-                <element signature="e#2574#2575#0" expanded="false" />
-                <element signature="e#2625#2626#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,33 +139,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2335#2439#0" expanded="false" />
-                <element signature="e#2438#2439#0" expanded="false" />
-                <element signature="e#3818#4124#0" expanded="false" />
-                <element signature="e#4123#4124#0" expanded="false" />
-                <element signature="e#4683#4706#0" expanded="false" />
-                <element signature="e#5921#5922#0" expanded="false" />
-                <element signature="e#5953#5954#0" expanded="false" />
-                <element signature="e#6001#6002#0" expanded="false" />
-                <element signature="e#6048#6049#0" expanded="false" />
-                <element signature="e#7223#7241#0" expanded="false" />
-                <element signature="e#10118#10119#0" expanded="false" />
-                <element signature="e#10139#10140#0" expanded="false" />
-                <element signature="e#10416#10417#0" expanded="false" />
-                <element signature="e#10434#10435#0" expanded="false" />
-                <element signature="e#16809#17012#0" expanded="false" />
-                <element signature="e#17011#17012#0" expanded="false" />
-                <element signature="e#17794#18170#0" expanded="false" />
-                <element signature="e#18169#18170#0" expanded="false" />
-                <element signature="e#18233#18366#0" expanded="false" />
-                <element signature="e#18365#18366#0" expanded="false" />
-                <element signature="e#18954#19330#0" expanded="false" />
-                <element signature="e#19329#19330#0" expanded="false" />
-                <element signature="e#19355#19454#0" expanded="false" />
-                <element signature="e#19453#19454#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,7 +169,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -249,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -388,7 +334,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -402,6 +347,13 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="instead-android" />
   </component>
   <component name="RunManager" selected="Android Application.instead-android">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -547,22 +499,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5140033" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51650167" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28500825" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
@@ -570,12 +519,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3250825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3250825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22734761" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -599,48 +551,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6868#6869#0" expanded="false" />
-            <element signature="e#6904#6905#0" expanded="false" />
-            <element signature="e#7820#7821#0" expanded="false" />
-            <element signature="e#7866#7867#0" expanded="false" />
-            <element signature="e#10750#10751#0" expanded="false" />
-            <element signature="e#10804#10805#0" expanded="false" />
-            <element signature="e#12857#12858#0" expanded="false" />
-            <element signature="e#12909#12910#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1787#1788#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/filter_small.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/fvmenu1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -657,6 +567,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/SDLActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -677,15 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#2484#2485#0" expanded="false" />
-            <element signature="e#2523#2524#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -693,33 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2335#2439#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#3818#4124#0" expanded="false" />
-            <element signature="e#4123#4124#0" expanded="false" />
-            <element signature="e#4683#4706#0" expanded="false" />
-            <element signature="e#5921#5922#0" expanded="false" />
-            <element signature="e#5953#5954#0" expanded="false" />
-            <element signature="e#6001#6002#0" expanded="false" />
-            <element signature="e#6048#6049#0" expanded="false" />
-            <element signature="e#7223#7241#0" expanded="false" />
-            <element signature="e#10118#10119#0" expanded="false" />
-            <element signature="e#10139#10140#0" expanded="false" />
-            <element signature="e#10416#10417#0" expanded="false" />
-            <element signature="e#10434#10435#0" expanded="false" />
-            <element signature="e#16809#17012#0" expanded="false" />
-            <element signature="e#17011#17012#0" expanded="false" />
-            <element signature="e#17794#18170#0" expanded="false" />
-            <element signature="e#18169#18170#0" expanded="false" />
-            <element signature="e#18233#18366#0" expanded="false" />
-            <element signature="e#18365#18366#0" expanded="false" />
-            <element signature="e#18954#19330#0" expanded="false" />
-            <element signature="e#19329#19330#0" expanded="false" />
-            <element signature="e#19355#19454#0" expanded="false" />
-            <element signature="e#19453#19454#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,17 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6868#6869#0" expanded="false" />
-            <element signature="e#6904#6905#0" expanded="false" />
-            <element signature="e#7820#7821#0" expanded="false" />
-            <element signature="e#7866#7867#0" expanded="false" />
-            <element signature="e#10750#10751#0" expanded="false" />
-            <element signature="e#10804#10805#0" expanded="false" />
-            <element signature="e#12857#12858#0" expanded="false" />
-            <element signature="e#12909#12910#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,315 +619,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1787#1788#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/filter_small.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/fvmenu1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/gdmenu1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#2484#2485#0" expanded="false" />
-            <element signature="e#2523#2524#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2335#2439#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#3818#4124#0" expanded="false" />
-            <element signature="e#4123#4124#0" expanded="false" />
-            <element signature="e#4683#4706#0" expanded="false" />
-            <element signature="e#5921#5922#0" expanded="false" />
-            <element signature="e#5953#5954#0" expanded="false" />
-            <element signature="e#6001#6002#0" expanded="false" />
-            <element signature="e#6048#6049#0" expanded="false" />
-            <element signature="e#7223#7241#0" expanded="false" />
-            <element signature="e#10118#10119#0" expanded="false" />
-            <element signature="e#10139#10140#0" expanded="false" />
-            <element signature="e#10416#10417#0" expanded="false" />
-            <element signature="e#10434#10435#0" expanded="false" />
-            <element signature="e#16809#17012#0" expanded="false" />
-            <element signature="e#17011#17012#0" expanded="false" />
-            <element signature="e#17794#18170#0" expanded="false" />
-            <element signature="e#18169#18170#0" expanded="false" />
-            <element signature="e#18233#18366#0" expanded="false" />
-            <element signature="e#18365#18366#0" expanded="false" />
-            <element signature="e#18954#19330#0" expanded="false" />
-            <element signature="e#19329#19330#0" expanded="false" />
-            <element signature="e#19355#19454#0" expanded="false" />
-            <element signature="e#19453#19454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6868#6869#0" expanded="false" />
-            <element signature="e#6904#6905#0" expanded="false" />
-            <element signature="e#7820#7821#0" expanded="false" />
-            <element signature="e#7866#7867#0" expanded="false" />
-            <element signature="e#10750#10751#0" expanded="false" />
-            <element signature="e#10804#10805#0" expanded="false" />
-            <element signature="e#12857#12858#0" expanded="false" />
-            <element signature="e#12909#12910#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1787#1788#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#2484#2485#0" expanded="false" />
-            <element signature="e#2523#2524#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2335#2439#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#3818#4124#0" expanded="false" />
-            <element signature="e#4123#4124#0" expanded="false" />
-            <element signature="e#4683#4706#0" expanded="false" />
-            <element signature="e#5921#5922#0" expanded="false" />
-            <element signature="e#5953#5954#0" expanded="false" />
-            <element signature="e#6001#6002#0" expanded="false" />
-            <element signature="e#6048#6049#0" expanded="false" />
-            <element signature="e#7223#7241#0" expanded="false" />
-            <element signature="e#10118#10119#0" expanded="false" />
-            <element signature="e#10139#10140#0" expanded="false" />
-            <element signature="e#10416#10417#0" expanded="false" />
-            <element signature="e#10434#10435#0" expanded="false" />
-            <element signature="e#16809#17012#0" expanded="false" />
-            <element signature="e#17011#17012#0" expanded="false" />
-            <element signature="e#17794#18170#0" expanded="false" />
-            <element signature="e#18169#18170#0" expanded="false" />
-            <element signature="e#18233#18366#0" expanded="false" />
-            <element signature="e#18365#18366#0" expanded="false" />
-            <element signature="e#18954#19330#0" expanded="false" />
-            <element signature="e#19329#19330#0" expanded="false" />
-            <element signature="e#19355#19454#0" expanded="false" />
-            <element signature="e#19453#19454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.navigation/instead/raw/main.nvg.xml">
-      <provider selected="true" editor-type-id="navigationeditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2335#2439#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#3818#4124#0" expanded="false" />
-            <element signature="e#4123#4124#0" expanded="false" />
-            <element signature="e#4683#4706#0" expanded="false" />
-            <element signature="e#5921#5922#0" expanded="false" />
-            <element signature="e#5953#5954#0" expanded="false" />
-            <element signature="e#6001#6002#0" expanded="false" />
-            <element signature="e#6048#6049#0" expanded="false" />
-            <element signature="e#7223#7241#0" expanded="false" />
-            <element signature="e#10118#10119#0" expanded="false" />
-            <element signature="e#10139#10140#0" expanded="false" />
-            <element signature="e#10416#10417#0" expanded="false" />
-            <element signature="e#10434#10435#0" expanded="false" />
-            <element signature="e#16809#17012#0" expanded="false" />
-            <element signature="e#17011#17012#0" expanded="false" />
-            <element signature="e#17794#18170#0" expanded="false" />
-            <element signature="e#18169#18170#0" expanded="false" />
-            <element signature="e#18233#18366#0" expanded="false" />
-            <element signature="e#18365#18366#0" expanded="false" />
-            <element signature="e#18954#19330#0" expanded="false" />
-            <element signature="e#19329#19330#0" expanded="false" />
-            <element signature="e#19355#19454#0" expanded="false" />
-            <element signature="e#19453#19454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#2484#2485#0" expanded="false" />
-            <element signature="e#2523#2524#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6868#6869#0" expanded="false" />
-            <element signature="e#6904#6905#0" expanded="false" />
-            <element signature="e#7820#7821#0" expanded="false" />
-            <element signature="e#7866#7867#0" expanded="false" />
-            <element signature="e#10750#10751#0" expanded="false" />
-            <element signature="e#10804#10805#0" expanded="false" />
-            <element signature="e#12857#12858#0" expanded="false" />
-            <element signature="e#12909#12910#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1787#1788#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,12 +649,313 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/SDLActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45833334">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/filter_small.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/fvmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/gdmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/filter_small.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/fvmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/gdmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="550" column="28" selection-start-line="550" selection-start-column="28" selection-end-line="550" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/GameDirs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="375" column="47" selection-start-line="375" selection-start-column="47" selection-end-line="375" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/filter_small.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/fvmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/gdmenu1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/silentlexx/instead/SDLActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2264151">
           <caret line="362" column="66" selection-start-line="362" selection-start-column="66" selection-end-line="362" selection-end-column="66" />
-          <folding>
-            <element signature="e#10523#10623#0" expanded="true" />
-            <element signature="e#10622#10623#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
