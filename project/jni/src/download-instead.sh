@@ -16,12 +16,10 @@ mv instead-$INSTEAD_VERSION instead
 rm $RESPATH/data.zip
 mkdir $RESPATH/data
 unzip -x ./data.zip -d $RESPATH/data
-rm $RESPATH/data/appdata/games/tutorial3/*
-rm $RESPATH/data/lang/*
-rm $RESPATH/data/stead/*
 cp ./instead/games/tutorial3/* $RESPATH/data/appdata/games/tutorial3
 cp ./instead/lang/* $RESPATH/data/lang
 cp ./instead/stead/* $RESPATH/data/stead
+cp -r ./instead/themes/* $RESPATH/data/themes
 cd $RESPATH/data
 zip -r ./../data.zip .nomedia *
 cd ..
