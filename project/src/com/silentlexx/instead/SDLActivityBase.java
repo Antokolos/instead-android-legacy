@@ -1,4 +1,4 @@
-package org.libsdl.app;
+package com.silentlexx.instead;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -22,24 +22,22 @@ import java.lang.*;
 /**
     SDL Activity
 */
-public class SDLActivity extends Activity {
+public abstract class SDLActivityBase extends Activity {
 
     // Main components
-    private static SDLActivity mSingleton;
-    private static SDLSurface mSurface;
+    private static SDLActivityBase mSingleton;
+    private static SDLSurfaceBase mSurface;
 
     // Audio
     private static Thread mAudioThread;
     private static AudioTrack mAudioTrack;
 
-    // Load the .so
-    static {
-        System.loadLibrary("SDL");
-        System.loadLibrary("SDL_image");
-        System.loadLibrary("mikmod");
-        System.loadLibrary("SDL_mixer");
-        System.loadLibrary("SDL_ttf");
-        System.loadLibrary("main");
+    public static SDLActivityBase getSingleton() {
+        return mSingleton;
+    }
+
+    public static SDLSurfaceBase getSurface() {
+        return mSurface;
     }
 
     // Setup
@@ -51,11 +49,13 @@ public class SDLActivity extends Activity {
         mSingleton = this;
 
         // Set up the surface
-        mSurface = new SDLSurface(getApplication());
+        mSurface = initSurface();
         setContentView(mSurface);
         SurfaceHolder holder = mSurface.getHolder();
         holder.setType(SurfaceHolder.SURFACE_TYPE_GPU);
     }
+
+    protected abstract SDLSurfaceBase initSurface();
 
     // Events
     protected void onPause() {
@@ -88,32 +88,7 @@ public class SDLActivity extends Activity {
         commandHandler.sendMessage(msg);
     }
 
-    // C functions we call
-    public static native void nativeInit();
-    public static native void nativeQuit();
-    public static native void onNativeResize(int x, int y, int format);
-    public static native void onNativeKeyDown(int keycode);
-    public static native void onNativeKeyUp(int keycode);
-    public static native void onNativeTouch(int action, float x, 
-                                            float y, float p);
-    public static native void onNativeAccel(float x, float y, float z);
-    public static native void nativeRunAudioThread();
 
-
-    // Java functions called from C
-
-    public static boolean createGLContext(int majorVersion, int minorVersion) {
-        return mSurface.initEGL(majorVersion, minorVersion);
-    }
-
-    public static void flipBuffers() {
-        mSurface.flipEGL();
-    }
-
-    public static void setActivityTitle(String title) {
-        // Called from SDLMain() thread and can't directly affect the view
-        mSingleton.sendCommand(COMMAND_CHANGE_TITLE, title);
-    }
 
     // Audio
     private static Object buf;
@@ -149,7 +124,7 @@ public class SDLActivity extends Activity {
         mAudioThread = new Thread(new Runnable() {
             public void run() {
                 mAudioTrack.play();
-                nativeRunAudioThread();
+                SDLActivity.nativeRunAudioThread();
             }
         });
         
@@ -214,25 +189,12 @@ public class SDLActivity extends Activity {
 }
 
 /**
-    Simple nativeInit() runnable
-*/
-class SDLMain implements Runnable {
-    public void run() {
-        // Runs SDL_main()
-        SDLActivity.nativeInit();
-
-        //Log.v("SDL", "SDL thread terminated");
-    }
-}
-
-
-/**
     SDLSurface. This is what we draw on, so we need to know when it's created
     in order to do anything useful. 
 
     Because of this, that's where we set up the SDL thread
 */
-class SDLSurface extends SurfaceView implements SurfaceHolder.Callback, 
+abstract class SDLSurfaceBase extends SurfaceView implements SurfaceHolder.Callback,
     View.OnKeyListener, View.OnTouchListener, SensorEventListener  {
 
     // This is what SDL runs in. It invokes SDL_main(), eventually
@@ -247,7 +209,7 @@ class SDLSurface extends SurfaceView implements SurfaceHolder.Callback,
     private static SensorManager mSensorManager;
 
     // Startup    
-    public SDLSurface(Context context) {
+    public SDLSurfaceBase(Context context) {
         super(context);
         getHolder().addCallback(this); 
     
@@ -342,10 +304,15 @@ class SDLSurface extends SurfaceView implements SurfaceHolder.Callback,
 
         // Now start up the C app thread
         if (mSDLThread == null) {
-            mSDLThread = new Thread(new SDLMain(), "SDLThread"); 
-            mSDLThread.start();       
+            mSDLThread = initThread();
         }
     }
+
+    /**
+     * Added by Anton P. Kolosov
+     * @return
+     */
+    protected abstract Thread initThread();
 
     // unused
     public void onDraw(Canvas canvas) {}
