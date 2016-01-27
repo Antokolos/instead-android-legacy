@@ -400,6 +400,8 @@ class SDLMain implements Runnable {
 		Settings settings = SDLActivity.getSettings();
 		boolean nativeLogEnabled = settings.isNativelog();
 		boolean enforceResolution = settings.isEnforceresolution();
+		// ignore own theme, setting, because old INSTEAD version (1.6.2) do not support it
+		boolean ownTheme = false; // settings.isOwntheme();
 		String nativeLogPath = nativeLogEnabled ? StorageResolver.getStorage() + InsteadApplication.ApplicationName + "/native.log" : null;
 		SDLActivity.nativeInit(
 				nativeLogPath,
@@ -410,7 +412,7 @@ class SDLMain implements Runnable {
 				SDLActivity.getGame(),
 				SDLActivity.getIdf(),
 				settings.isMusic() ? "Y" : null,  // The exact value is unimportant, if null, then -nosound will be added
-				settings.isOwntheme() ? "Y" : null,  // The exact value is unimportant, if NOT null, then -owntheme will be added
+				ownTheme ? "Y" : null,  // The exact value is unimportant, if NOT null, then -owntheme will be added
 				settings.getTheme()
 		);
 	}
@@ -460,76 +462,15 @@ class SDLSurface extends SDLSurfaceBase {
 		// see http://en.wildservices.net/2013/10/making-libsdl-2-apps-on-android.html
 	}
 
-	private float pX = 0;
-	private float pY = 0;
-	private long pA = 0;
-
-	// Touch events
+	// Touch events. This method is more complex for SDL2
 	public boolean onTouch(View v, MotionEvent event) {
 		SDLActivity.refreshOff();
 		int action = event.getAction();
 		float x = event.getX();
 		float y = event.getY();
-		long s = event.getEventTime();
+		float p = event.getPressure();
 
-
-		if (action == 0) {
-			pA = s;
-			pX = x;
-			pY = y;
-		} else if (action == 1) {
-			pA = s - pA;
-			pX = Math.abs(x - pX);
-			pY = Math.abs(y - pY);
-
-			/* Uncomment to enable show keyboard by long tap
-			 * final int WAIT_TOUCH = 1000;
-			 * final int SQUAR_TOUCH = 10;
-			 * if (pA > WAIT_TOUCH && pX < SQUAR_TOUCH && pY < SQUAR_TOUCH) {
-			 * 	 SDLActivity.getKeyboardAdapter().showKeyboard();
-			 * }
-			 */
-		}
-
-		//Log.d("touch", Integer.toString(Y)+"  "+Float.toString(y));
-		// TODO: Anything else we need to pass?
-		final int touchDevId = event.getDeviceId();
-		final int pointerCount = event.getPointerCount();
-		int actionMasked = event.getActionMasked();
-		int pointerFingerId;
-		int i = -1;
-		float p;
-		switch (actionMasked) {
-			case MotionEvent.ACTION_MOVE:
-				for (i = 0; i < pointerCount; i++) {
-					pointerFingerId = event.getPointerId(i);
-					x = event.getX(i) / mWidth;
-					y = event.getY(i) / mHeight;
-					p = event.getPressure(i);
-					// NB: Pass actionMasked, not action!
-					SDLActivity.onNativeTouch(actionMasked, x, y, p);
-				}
-				break;
-			case MotionEvent.ACTION_UP:
-			case MotionEvent.ACTION_DOWN:
-				// Primary pointer up/down, the index is always zero
-				i = 0;
-			case MotionEvent.ACTION_POINTER_UP:
-			case MotionEvent.ACTION_POINTER_DOWN:
-				// Non primary pointer up/down
-				if (i == -1) {
-					i = event.getActionIndex();
-				}
-				pointerFingerId = event.getPointerId(i);
-				x = event.getX(i) / mWidth;
-				y = event.getY(i) / mHeight;
-				p = event.getPressure(i);
-				// NB: Pass actionMasked, not action!
-				SDLActivity.onNativeTouch(actionMasked, x, y, p);
-				break;
-			default:
-				break;
-		}
+		SDLActivity.onNativeTouch(action, x, y, p);
 		return true;
 	}
 

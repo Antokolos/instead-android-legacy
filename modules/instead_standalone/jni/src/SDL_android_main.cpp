@@ -91,8 +91,6 @@ int start_logger(const char *app_name) {
     return 0;
 }
 
-extern "C" int instead_main(int argc, char *argv[]);
-
 /* Start up the SDL app */
 extern "C" void Java_com_nlbhub_instead_SDLActivity_nativeInit(
     JNIEnv* env,
@@ -185,7 +183,7 @@ extern "C" void Java_com_nlbhub_instead_SDLActivity_nativeInit(
     argv[n] = NULL;
 
     printf("Before instead_main()\n");
-    status = instead_main(n, argv);
+    status = SDL_main(n, argv);
     printf("After instead_main()\n");
     fflush(NULL);
     // Stopping the logger thread, if needed. Closing the log file, if it was opened...

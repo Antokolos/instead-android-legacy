@@ -189,7 +189,7 @@ extern "C" void Java_com_nlbhub_instead_SDLActivity_nativeInit(
     argv[n] = NULL;
 
     printf("Before instead_main()\n");
-    status = draw_test(n, argv);
+    status = SDL_main(n, argv);
     printf("After instead_main()\n");
     fflush(NULL);
     // Stopping the logger thread, if needed. Closing the log file, if it was opened...
