@@ -1,1 +1,1 @@
-# instead-android-legacy
+# instead-android-ng

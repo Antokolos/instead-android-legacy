@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="writefileerror">Archivo de error de ahorro</string>
+    <string name="finish">Descarga finalizada</string>
+    <string name="dataerror">Archivo de datos error al descargar</string>
+    <string name="instdata">La instalación de</string>
+    <string name="writefile">Guarde el archivo</string>
+    <string name="wait">Por favor espere…</string>
+    <string name="init">Inicialización</string>
+    <string name="start">Inicio</string>
+</resources>

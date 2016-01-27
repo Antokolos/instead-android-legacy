@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="writefileerror">Ошибка записи файла</string>
+    <string name="finish">Загрузка окончена</string>
+    <string name="dataerror">Ошибка загрузки файла данных</string>
+    <string name="instdata">Установка</string>
+    <string name="writefile">Запись файла</string>
+    <string name="clear">Стереть</string>
+    <string name="enter">Ввод</string>
+    <string name="close">Скрыть</string>
+    <string name="wait">Ждите…</string>
+    <string name="init">Инициализация</string>
+    <string name="start">Начать игру</string>
+</resources>
